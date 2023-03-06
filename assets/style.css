@@ -170,6 +170,12 @@ social_media li desc {
     color: rgb(51, 3, 70);
 }
 
+aboutme {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
 linkedin {
     display: flex;
     flex-direction: column;
