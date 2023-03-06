@@ -180,13 +180,15 @@ linkedin {
     justify-content: center;
 }
 
-linkedin img {
-    margin-top: 5px;
-    width: 94%;
-    margin-left: 3%;
-    margin-right: 3%;
+linkedin a {
+    width: 95%;
+    margin: 0 2.5% 0 2.5%;
 }
 
+linkedin a img {
+    margin: 1% 7.5% 0 7.5%;
+    width: 85%;
+}
 .section-container ul {
     padding: 0;
     display: inline;
