@@ -3,6 +3,7 @@
     font-family: serif;
     margin: 0;
     text-decoration: none;
+    font-family: 'Courier New', Courier, monospace;
 }
 
 body {
@@ -54,7 +55,7 @@ description {
 
 .section-container-home {
     display: flex;
-    margin: 10% 1% 0 1%;
+    margin: 15% 1% 0 1%;
     flex-direction: column;
     flex-wrap: wrap;
     align-content: center;
@@ -88,7 +89,6 @@ d ul li {
 }
 
 social_media li desc {
-    background-color: #182b2f9c;
     color: #D3F3F0;
     margin-top: 5px;
     white-space: nowrap;
@@ -109,11 +109,11 @@ social_media li desc {
 description_main h2 {
     background-color: #182b2f9c;
     color: #D3F3F0;
-    margin-top: 5px;
     text-align: center;
     display: inline;
     border-radius: 10px;
-    padding: 5px;
+    margin: 5px;
+    padding: 0 5px 0 5px;
 }
 
 description_main {
