@@ -107,7 +107,7 @@ pfp_name_anchor {
 }
 
 d ul li {
-    background-color: rgba(255, 255, 255, 0.404);
+    background-color: rgba(255, 255, 255, 0.815);
     color: rgb(51, 3, 70);
     margin-top: 5px;
 }
@@ -117,7 +117,7 @@ connect {
 }
 
 #github a {
-    background-color: rgba(255, 255, 255, 0.404);
+    background-color: rgba(255, 255, 255, 0.801);
     color: rgb(51, 3, 70);
     margin-top: 5px;
     text-align: center;
@@ -125,7 +125,7 @@ connect {
 }
 
 h2 {
-    background-color: rgba(255, 255, 255, 0.404);
+    background-color: rgba(255, 255, 255, 0.705);
     color: rgb(51, 3, 70);
     margin-top: 5px;
     text-align: center;
@@ -139,6 +139,7 @@ description_main {
     background-position-y: 35%;
     background-size: cover;
     height: 100%;
+    padding: 5px;
 }
 
 description_main:hover {
