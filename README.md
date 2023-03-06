@@ -12,11 +12,11 @@ To open the page, simply click on the following link: "https://strugglerxiv.gith
 
 This a screenshot showcasing the live deployed webpage on github:
 
-![Challenge-Live-Screenshot](assets/images/website_full.png)
+![Challenge-Live-Screenshot](./assets/images/website_full.png)
 
 And this is a screenshot showcasing the responsive live deployed webpage on github:
 
-![Challenge-Live-Screenshot](assets/images/website_responsive.png)
+![Challenge-Live-Screenshot](./assets/images/website_responsive.png)
 
 ## Credits
 
