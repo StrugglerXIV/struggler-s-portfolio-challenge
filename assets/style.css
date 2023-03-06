@@ -51,9 +51,10 @@ buttons {
     justify-content: center;
     flex-wrap: wrap;
 }
+
 /*-------------nav-------------*/
 
-/* Welcome message*/ 
+/* Welcome message*/
 
 .welcome_message {
     width: 70%;
@@ -168,6 +169,11 @@ social_media li {
     align-items: center;
 }
 
+icons a img:hover {
+    transition: all .2s ease-in-out;
+    transform: scale(1.1);
+}
+
 aboutme {
     display: flex;
     flex-direction: column;
@@ -175,20 +181,23 @@ aboutme {
 }
 
 linkedin {
+    position: relative;
     display: flex;
     flex-direction: column;
     justify-content: center;
 }
 
 linkedin a {
-    width: 95%;
-    margin: 0 2.5% 0 2.5%;
+    margin-left: auto;
+    margin-right: auto;
+    width: 113px;
+    height: 50px;
 }
 
 linkedin a img {
-    margin: 1% 7.5% 0 7.5%;
-    width: 85%;
+    height: 100%;
 }
+
 .section-container ul {
     padding: 0;
     display: inline;
@@ -197,6 +206,11 @@ linkedin a img {
 
 .section-container ul li {
     margin-top: 10px;
+}
+
+linkedin a img:hover {
+    transition: all .2s ease-in-out;
+    transform: scale(1.05);
 }
 
 /* Responsive sections*/
@@ -271,12 +285,11 @@ linkedin a img {
         padding-right: 10px;
         white-space: nowrap;
     }
-    linkedin img {
-        margin-top: 10px;
-    }
+
     icons img {
         width: 75%;
     }
+
     .section-container-home {
         width: 98%;
     }
