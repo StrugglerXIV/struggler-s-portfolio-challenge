@@ -181,9 +181,10 @@ linkedin {
 }
 
 linkedin img {
-    margin-top: 10px;
-    width: 100%;
-    height: auto;
+    margin-top: 5px;
+    width: 94%;
+    margin-left: 3%;
+    margin-right: 3%;
 }
 
 .section-container ul {
@@ -270,9 +271,6 @@ linkedin img {
     }
     linkedin img {
         margin-top: 10px;
-        width: 50%;
-        height: auto;
-        margin-left: 25%;
     }
     icons img {
         width: 75%;
