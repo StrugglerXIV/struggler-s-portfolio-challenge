@@ -11,10 +11,13 @@
 </head>
 
 <body>
-    <audio autoplay loop>
-        <source src="assets/audio/Thunderstorm.mp3" type="audio/mpeg">
+    <!-- Audio of a storm is supposed to play -->
+    <audio loop autoplay>
+        <source src="./assets/audio/Thunderstorm.mp3" type="audio/mpeg">
     </audio>
+    <!--Background image-->
     <section class="bg_main_image">
+        <!-- Navigation buttons -->
         <buttons class="nav_buttons">
             <a href="#github">
                 <nav>Github</nav>
@@ -23,11 +26,13 @@
             <a href="#linkedin"><nav>LinkedIn</nav></a>
             <a href="#connect"><nav>Connect</nav></a>
         </buttons>
+        <!-- Welcome message -->
         <container class="welcome_message">
             <h1>
                 <d class="text_block_w">Willkommen; Welcome; いらっしゃいませ</d>
             </h1>
         </container>
+        <!-- Profile Picture -->
         <pfp_name_anchor>
             <pfp class="profile-pic">
                 <img src="./assets/img/pfp.PNG" alt="potrait picture of a male" />
@@ -39,6 +44,7 @@
             </name>
         </pfp_name_anchor>
     </section>
+    <!-- Main webpage display - Horiseon -->
     <home class="section-container-home">
         <info_g id="github">Github</info_g>
         <description_main class="border-left">
@@ -56,6 +62,7 @@
             </d>
         </description_main>
     </home>
+    <!-- All the other misc cards -->
     <misc>
         <about-me class="section-container">
             <info id="about-me">About me</info>
@@ -88,6 +95,7 @@
                         <social_media>
                             <li>
                                 <desc>Social Media:</desc>
+                                <!-- Social media icons -->
                                 <icons>
                                     <a href="https://www.instagram.com/strugglerxiv/" target="_blank"><img
                                             src="./assets/img/ig_icon.png" alt="Instagram Icon"></a>
@@ -107,5 +115,4 @@
     </misc>
 </body>
 <footer>Powered by Github</footer>
-
 </html>
